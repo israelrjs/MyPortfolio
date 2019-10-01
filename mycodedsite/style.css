@@ -1,0 +1,117 @@
+body {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 830px;
+}
+#projects {
+  background-image: url(images/arc.jpg);
+  background-size: 1500px 840px;
+  height: 850px;
+  margin: 77px;
+  margin-bottom: 0px;
+}
+.navbar.navbar-light.bg-light {
+  color: rgba(240, 248, 255, 0);
+}
+#name.navbar-brand.pl-5.ml-5 {
+  font-size: 60px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  color: whitesmoke;
+}
+form {
+  position: relative;
+  display: inline;
+}
+.form-group {
+  margin-left: 800px;
+  width: 500px;
+}
+#sbutton {
+  float: right;
+  margin-right: 80px;
+}
+.display-4 {
+  text-align: right;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-right: 90px;
+}
+#media.card.text-white.bg-secondary.mb-3 {
+  margin-top: 50px;
+  margin-right: 50px;
+  height: 660px;
+}
+#media {
+  margin-top: 520px;
+  margin-left: 540px;
+  position: absolute;
+  width: 30%;
+}
+#me {
+  border-radius: 50%;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+#githublink {
+  margin: 20px;
+}
+#inlink {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.bio {
+  width: 1200px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 240px;
+  color: aliceblue;
+}
+h5.card-title {
+  text-align: center;
+  color: whitesmoke;
+}
+p.card-text {
+  text-align: center;
+  color: whitesmoke;
+}
+a.btn.btn-primary {
+  margin-left: 33px;
+}
+div.jumbotron.mx-auto {
+  padding-top: 90px;
+  padding-bottom: 0;
+  position: sticky;
+  float: left;
+  height: 700px;
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: rgba(252, 244, 244, 0);
+}
+#projects.jumbotron.mx-auto {
+  width: 100%;
+}
+.card {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+  position: static;
+  height: 500px;
+}
+#contactbox.jumbotron.mx-auto {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url(images/contactback.jpg);
+  background-size: 1500px 900px;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: whitesmoke;
+}
