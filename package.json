@@ -1,0 +1,23 @@
+{
+  "name": "MyPortfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d sitecode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelrjs/MyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelrjs/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/israelrjs/MyPortfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
