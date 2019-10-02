@@ -1,19 +1,25 @@
-body {
+#aboutbox {
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
-  background-size: 1500px 830px;
+  background-size: 1500px 1930px;
+  width: 100%;
+  height: auto;
+  margin: 0;
 }
 #projects {
   background-image: url(images/arc.jpg);
   background-size: 1500px 840px;
-  height: 850px;
-  margin: 77px;
+  height: auto;
   margin-bottom: 0px;
 }
 .navbar.navbar-light.bg-light {
   color: rgba(240, 248, 255, 0);
 }
-#name.navbar-brand.pl-5.ml-5 {
+
+#resumelink {
+  width: 100px;
+}
+#name.navbar-brand {
   font-size: 60px;
   font-family: "Montserrat Alternates", sans-serif;
   color: whitesmoke;
@@ -28,12 +34,17 @@ form {
   display: inline;
 }
 .form-group {
-  margin-left: 800px;
-  width: 500px;
+  width: 100%;
+}
+form.form-inline {
+  margin-left: 100px;
 }
 #sbutton {
   float: right;
-  margin-right: 80px;
+}
+#infobox {
+  width: 43%;
+  float: right;
 }
 .display-4 {
   text-align: right;
@@ -41,33 +52,37 @@ form {
   margin-right: 90px;
 }
 #media.card.text-white.bg-secondary.mb-3 {
-  margin-top: 50px;
-  margin-right: 50px;
+  margin: 0 auto;
   height: 660px;
 }
 #media {
-  margin-top: 520px;
-  margin-left: 540px;
-  position: absolute;
-  width: 30%;
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
 }
+
 #me {
   border-radius: 50%;
   margin-bottom: 0px;
   margin-left: 5px;
 }
 #githublink {
-  margin: 20px;
+  margin-top: 0px;
+  float: right;
 }
 #inlink {
+  float: left;
   margin-left: 10px;
   margin-right: 20px;
 }
-.bio {
-  width: 1200px;
+
+#bio.lead {
+  font-size: 30px;
+  margin-top: 220px;
+  margin-right: 80px;
+
   text-align: center;
   margin-left: 80px;
-  margin-top: 240px;
   color: aliceblue;
 }
 h5.card-title {
@@ -88,7 +103,7 @@ div.jumbotron.mx-auto {
   float: left;
   height: 700px;
   margin: 50px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 0px;
   background-color: rgba(252, 244, 244, 0);
 }

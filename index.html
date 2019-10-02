@@ -10,7 +10,10 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <meta
       name="viewport"
@@ -22,12 +25,12 @@
   <body>
     <header>
       <nav class="navbar fixed-top navbar-light bg-transparent ">
-        <a id="name" class="navbar-brand pl-5 ml-5">Israel Rojas</a>
-        
+        <a id="name" class="navbar-brand">Israel Rojas</a>
+
         <form class="form-inline">
-          <ul class="nav justify-content-end mr-5 pr-5">
+          <ul class="nav justify-content-end mr-4 ml-9">
             <li class="nav-item">
-              <a id="about" class="nav-link active" >About</a>
+              <a id="about" class="nav-link active">About</a>
             </li>
             <li class="nav-item">
               <a id="portfolio" class="nav-link">Portfolio</a>
@@ -39,41 +42,48 @@
         </form>
       </nav>
     </header>
-    <div id="aboutbox">
-      <div class="jumbotron mx-auto">
-       
-        <hr class="my-4" />
 
-        
+    <div id="aboutbox" class="jumbotron mx-auto">
+      <hr class="my-4" />
 
-        <h4 class="bio">
-          I am a Webdeveloper from Kansas City Kansas currently living in Johnson County. 
-          I am a fullstack web developer that can build a website from the ground up. 
-          My skills include building with React, Javascript, JQuery, Node, MySQL, HTML, CSS, MERN, and Handlebars.
-          Take a look at a Few projects I've completed down below using the mentioned technologies.
-        </h4>
-        
+      <h4 id="bio" class="lead">
+        I am a Web-developer from Kansas City Kansas. I am a fullstack web
+        developer that can build a website from the ground up. My skills include
+        building with React, Javascript, JQuery, Node, MySQL, HTML, CSS, MERN,
+        and Handlebars. Take a look at a Few projects I've completed down below
+        using the mentioned technologies.
+      </h4>
+
+      <div id="media" class="jumbotron bg-transparent">
+        <div class="row">
+          <div class="col">
+            <a href="https://github.com/israelrjs">
+              <img
+                id="githublink"
+                src="images/github-icon-logo-png-transparent.png"
+                style="width:42px;height:42px;border:0;"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.linkedin.com/in/israel-rojas-403408156/">
+              <img
+                id="inlink"
+                src="images/linkedinlogo.png"
+                style="width:155px;height:42px;border:0;"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <form
+              id="resumelink"
+              action="https://docs.google.com/document/d/1VEDsUnKprWQSJfnh8Do-btJMHS4S_qrWrdLpUZ_wDJI/edit?usp=sharing"
+            >
+              <button type="submit" class="btn btn-success">Resume</button>
+            </form>
+          </div>
+        </div>
       </div>
-
-      <div id="media">
-          <a href="https://github.com/israelrjs">
-            <img
-            id="githublink"
-              src="images/github-icon-logo-png-transparent.png"
-              style="width:42px;height:42px;border:0;"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/israel-rojas-403408156/">
-            <img
-            id="inlink"
-              src="images/linkedinlogo.png"
-              style="width:155px;height:42px;border:0;"
-            />
-          </a>
-          <form action="https://docs.google.com/document/d/1VEDsUnKprWQSJfnh8Do-btJMHS4S_qrWrdLpUZ_wDJI/edit?usp=sharing">
-            <button  type="submit" class="btn btn-success">Resume</button>
-          </form>
-          
     </div>
 
     <div id="projects" class="jumbotron mx-auto">
@@ -89,12 +99,13 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Hangman</h5>
+              <h5 class="card-title">Lawyer Search</h5>
               <p class="card-text">
-                Play a quick game of Hangman. Can you solve the puzzle?
+                Looking for a Lawyer? Needing to advertise yourself? Check out
+                the Lawyer Database!
               </p>
               <a
-                href="https://israelrjs.github.io/Word-Guess-Game-/"
+                href="https://morning-sands-91256.herokuapp.com/"
                 class="btn btn-primary"
                 >Go</a
               >
@@ -111,7 +122,7 @@
             <div class="card-body">
               <h5 class="card-title">RPG Game</h5>
               <p class="card-text">
-                Test your luck with a crystal RPG game. 
+                Test your luck with a crystal RPG game.
               </p>
               <a
                 href="https://israelrjs.github.io/unit-4-game-crystals/"
@@ -131,7 +142,7 @@
             <div class="card-body">
               <h5 class="card-title">Trivia Game</h5>
               <p class="card-text">
-                Play a quick game of Trivia. Test your automotive knowledge. 
+                Play a quick game of Trivia. Test your automotive knowledge.
               </p>
               <a
                 href="https://israelrjs.github.io/AutoTriviaGame/"
@@ -151,7 +162,8 @@
             <div class="card-body">
               <h5 class="card-title">Giftastic</h5>
               <p class="card-text">
-                Looking for a GIF. Take a look at this interactive GIF Generator.
+                Looking for a GIF. Take a look at this interactive GIF
+                Generator.
               </p>
               <a
                 href="https://israelrjs.github.io/GIFTASTIC/"
@@ -188,10 +200,14 @@
             <div class="card-body">
               <h5 class="card-title">Inventory APP</h5>
               <p class="card-text">
-                The app will take in orders from customers and deplete stock from the store's inventory.
-                MySQL and Node JS required.
+                The app will take in orders from customers and deplete stock
+                from the store's inventory. MySQL and Node JS required.
               </p>
-              <a href="https://github.com/israelrjs/bamazonnodeapp" class="btn btn-primary">Go</a>
+              <a
+                href="https://github.com/israelrjs/bamazonnodeapp"
+                class="btn btn-primary"
+                >Go</a
+              >
             </div>
           </div>
         </div>
@@ -200,34 +216,38 @@
 
     <div id="contactbox" class="jumbotron mx-auto">
       <h1 class="display-4">Contact</h1>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Name</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="John Doe"
-        />
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="8"
-        ></textarea>
-      </div>
+      <div id="infobox" class="jumbotron mx-auto">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="John Doe"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="8"
+          ></textarea>
+        </div>
 
-      <button id="sbutton" type="submit" class="btn btn-primary">Submit</button>
+        <button id="sbutton" type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </div>
     </div>
 
     <footer>
