@@ -1,16 +1,30 @@
 #aboutbox {
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
-  background-size: 1500px 1930px;
+  background-size: 1500px 795px;
   width: 100%;
-  height: auto;
+  height: 785px;
   margin: 0;
 }
+#skillsbox {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url(images/skillsback.jpg);
+  background-size: 1500px 900px;
+}
 #projects {
-  background-image: url(images/arc.jpg);
+  background-image: url(images/projectb.jpg);
   background-size: 1500px 840px;
   height: auto;
   margin-bottom: 0px;
+}
+#contactbox.jumbotron.mx-auto {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url(images/contactback.jpg);
+  background-size: 1500px 900px;
 }
 .navbar.navbar-light.bg-light {
   color: rgba(240, 248, 255, 0);
@@ -76,8 +90,8 @@ form.form-inline {
   margin-right: 20px;
 }
 
-#bio.lead {
-  font-size: 30px;
+#bio {
+  font-size: 40px;
   margin-top: 220px;
   margin-right: 80px;
 
@@ -117,16 +131,118 @@ div.jumbotron.mx-auto {
   position: static;
   height: 500px;
 }
-#contactbox.jumbotron.mx-auto {
-  margin: 0;
-  width: 100%;
-  height: 900px;
-  background-image: url(images/contactback.jpg);
-  background-size: 1500px 900px;
-}
+
 h1 {
   text-align: center;
   font-size: 60px;
   font-family: "Montserrat Alternates", sans-serif;
   color: whitesmoke;
+}
+
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2195f300;
+  padding: 5px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+.progress {
+  margin-right: 30%;
+
+  margin-bottom: 2%;
+}
+h5 {
+  color: whitesmoke;
+}
+@media (min-width: 413px) {
+  form.form-inline {
+    margin-left: 65px;
+  }
+  #bio {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 150px;
+    margin-right: 80px;
+
+    text-align: center;
+    margin-left: 80px;
+    color: aliceblue;
+  }
+  #media {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
+  #inlink {
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #githublink {
+    margin-right: 50px;
+  }
+  #resumelink {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 360px) {
+  form.form-inline {
+    margin-left: 25px;
+  }
+  #name.navbar-brand {
+    font-size: 50px;
+  }
+  #bio {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-right: 80px;
+  }
+  #inlink {
+    margin-left: 0;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #githublink {
+    margin-right: 20px;
+  }
+  #resumelink {
+    margin-left: 10px;
+  }
 }
