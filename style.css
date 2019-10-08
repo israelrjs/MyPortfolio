@@ -1,4 +1,4 @@
-/* /* @media (min-width: 413px) {
+/* @media (min-width: 414px) {
   form.form-inline {
     margin-left: 65px;
   }
@@ -29,16 +29,210 @@
     margin-left: 50px;
   }
 } */
-@media (min-width: 360px) {
+
+#aboutbox {
+  background-image: url(images/background.jpg);
+
+  background-size: 1500px 795px;
+  width: 100%;
+  height: 785px;
+  margin: 0;
+}
+#skillsbox {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url(images/skillsback.jpg);
+  background-size: 1500px 900px;
+}
+#projects {
+  background-image: url(images/projectb.jpg);
+  background-size: 1500px 840px;
+  height: auto;
+  margin-bottom: 0px;
+}
+#contactbox.jumbotron.mx-auto {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url(images/contactback.jpg);
+  background-size: 1500px 900px;
+}
+.navbar.navbar-light.bg-light {
+  color: rgba(240, 248, 255, 0);
+}
+
+#resumelink {
+  width: 100px;
+}
+#name.navbar-brand {
+  font-size: 60px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  color: whitesmoke;
+}
+form {
+  position: relative;
+  display: inline;
+}
+.form-group {
+  width: 100%;
+}
+form.form-inline {
+  margin-left: 100px;
+}
+#sbutton {
+  float: right;
+}
+#infobox {
+  width: 43%;
+  float: right;
+}
+.display-4 {
+  text-align: right;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-right: 90px;
+}
+#media.card.text-white.bg-secondary.mb-3 {
+  margin: 0 auto;
+  height: 660px;
+}
+#media {
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+}
+
+#me {
+  border-radius: 50%;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+#githublink {
+  margin-top: 0px;
+  float: right;
+}
+#inlink {
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#bio {
+  font-size: 40px;
+  margin-top: 220px;
+  margin-right: 80px;
+
+  text-align: center;
+  margin-left: 80px;
+  color: aliceblue;
+}
+h5.card-title {
+  text-align: center;
+  color: whitesmoke;
+}
+p.card-text {
+  text-align: center;
+  color: whitesmoke;
+}
+a.btn.btn-primary {
+  margin-left: 33px;
+}
+div.jumbotron.mx-auto {
+  padding-top: 90px;
+  padding-bottom: 0;
+  position: sticky;
+  float: left;
+  height: 700px;
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgba(252, 244, 244, 0);
+}
+#projects.jumbotron.mx-auto {
+  width: 100%;
+}
+.card {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+  position: static;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: whitesmoke;
+}
+
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2195f300;
+  padding: 5px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+.progress {
+  margin-right: 30%;
+
+  margin-bottom: 2%;
+}
+h5 {
+  color: whitesmoke;
+}
+
+@media (max-width: 414px) {
   form.form-inline {
-    margin-left: 25px;
+    margin-left: 55px;
   }
   #name.navbar-brand {
-    font-size: 50px;
+    font-size: 55px;
+    margin-left: 15px;
   }
   #bio {
-    text-align: center;
-    font-size: 24px;
+    font-size: 19px;
     margin-top: 50px;
     margin-right: 80px;
   }
@@ -49,204 +243,9 @@
     margin-bottom: 50px;
   }
   #githublink {
-    margin-right: 20px;
+    margin-right: 40px;
   }
   #resumelink {
-    margin-left: 10px;
-  }
-}
-
-@media (min-width: 416px) {
-  #aboutbox {
-    background-image: url(images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 1500px 795px;
-    width: 100%;
-    height: 785px;
-    margin: 0;
-  }
-  #skillsbox {
-    margin: 0;
-    width: 100%;
-    height: 900px;
-    background-image: url(images/skillsback.jpg);
-    background-size: 1500px 900px;
-  }
-  #projects {
-    background-image: url(images/projectb.jpg);
-    background-size: 1500px 840px;
-    height: auto;
-    margin-bottom: 0px;
-  }
-  #contactbox.jumbotron.mx-auto {
-    margin: 0;
-    width: 100%;
-    height: 900px;
-    background-image: url(images/contactback.jpg);
-    background-size: 1500px 900px;
-  }
-  .navbar.navbar-light.bg-light {
-    color: rgba(240, 248, 255, 0);
-  }
-
-  #resumelink {
-    width: 100px;
-  }
-  #name.navbar-brand {
-    font-size: 60px;
-    font-family: "Montserrat Alternates", sans-serif;
-    color: whitesmoke;
-    margin: 0;
-    padding: 0;
-  }
-  .nav-item {
-    color: whitesmoke;
-  }
-  form {
-    position: relative;
-    display: inline;
-  }
-  .form-group {
-    width: 100%;
-  }
-  form.form-inline {
-    margin-left: 100px;
-  }
-  #sbutton {
-    float: right;
-  }
-  #infobox {
-    width: 43%;
-    float: right;
-  }
-  .display-4 {
-    text-align: right;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-right: 90px;
-  }
-  #media.card.text-white.bg-secondary.mb-3 {
-    margin: 0 auto;
-    height: 660px;
-  }
-  #media {
-    margin: 0 auto;
-    width: 40%;
-    height: auto;
-  }
-
-  #me {
-    border-radius: 50%;
-    margin-bottom: 0px;
-    margin-left: 5px;
-  }
-  #githublink {
-    margin-top: 0px;
-    float: right;
-  }
-  #inlink {
-    float: left;
-    margin-top: 0px;
-    margin-left: 10px;
-    margin-right: 20px;
-  }
-
-  #bio {
-    font-size: 40px;
-    margin-top: 220px;
-    margin-right: 80px;
-
-    text-align: center;
-    margin-left: 80px;
-    color: aliceblue;
-  }
-  h5.card-title {
-    text-align: center;
-    color: whitesmoke;
-  }
-  p.card-text {
-    text-align: center;
-    color: whitesmoke;
-  }
-  a.btn.btn-primary {
-    margin-left: 33px;
-  }
-  div.jumbotron.mx-auto {
-    padding-top: 90px;
-    padding-bottom: 0;
-    position: sticky;
-    float: left;
-    height: 700px;
-    margin: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: rgba(252, 244, 244, 0);
-  }
-  #projects.jumbotron.mx-auto {
-    width: 100%;
-  }
-  .card {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    float: left;
-    position: static;
-    height: 500px;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 60px;
-    font-family: "Montserrat Alternates", sans-serif;
-    color: whitesmoke;
-  }
-
-  .ml14 {
-    font-weight: 200;
-    font-size: 3.2em;
-  }
-
-  .ml14 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-  }
-
-  .ml14 .line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background-color: #fff;
-    transform-origin: 100% 100%;
-    bottom: 0;
-  }
-
-  .ml14 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2195f300;
-    padding: 5px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid rgba(0, 0, 0, 0);
-    padding: 5px;
-    font-size: 30px;
-    text-align: center;
-  }
-  .progress {
-    margin-right: 30%;
-
-    margin-bottom: 2%;
-  }
-  h5 {
-    color: whitesmoke;
+    margin-left: 20px;
   }
 }
