@@ -5,7 +5,7 @@ $("#portfolio").click(function() {
   window.scrollTo({ top: 660, behavior: "smooth" });
 });
 $("#contacts").click(function() {
-  window.scrollTo({ top: 1375, behavior: "smooth" });
+  window.scrollTo({ top: 2400, behavior: "smooth" });
 });
 
 var textWrapper = document.querySelector(".ml14 .letters");
